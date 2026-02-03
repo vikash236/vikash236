@@ -375,6 +375,14 @@ A platform for student collaboration:
 
 <br />
 
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" width="40" /> Contribution Graph
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/vikash236/vikash236/output/snake.svg" alt="Snake animation" />
+</div>
+
+<br />
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="40" /> My Journey
 
 ```mermaid
