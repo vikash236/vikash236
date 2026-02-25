@@ -1,12 +1,16 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1a1b26,7aa2f7,bb9af7&height=120&section=header"/>
 
 <div align="center">
-  
-# Hi there, I'm <a href="https://www.linkedin.com/in/ksvikash236/">Vikash Reddy</a> <img height="35" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7aa2f7&center=true&vCenter=true&width=800&lines=AI+%26+Backend+Systems+Developer;Building+Intelligent+Apps+for+Real+World;Specialized+in+AI%2C+Big+Data+%26+Cloud;Turning+Complex+Problems+Into+Solutions" alt="Typing SVG" />
+# Hi there, I'm <a href="https://ksvikash236.vercel.app/">Vikash Reddy</a> <img height="35" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7aa2f7&center=true&vCenter=true&width=800&lines=AI+%26+Backend+Systems+Developer;Building+Intelligent+Apps+for+Real+World;Specialized+in+AI%2C+Big+Data+%26+Cloud;GPU-Accelerated+Computing+Enthusiast;Turning+Complex+Problems+Into+Solutions" alt="Typing SVG" />
 
 <br/>
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-ksvikash236.vercel.app-7aa2f7?style=for-the-badge&logo=vercel&logoColor=white)](https://ksvikash236.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ksvikash236/)
+[![Gmail](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ksvikash236@gmail.com)
 
 <img src="https://komarev.com/ghpvc/?username=vikash236&label=Profile%20Views&color=7aa2f7&style=for-the-badge" alt="Profile views" />
 
@@ -18,13 +22,16 @@
 
 ```typescript
 const vikash = {
-    location: "Nagari, India 🇮🇳",
+    location: "Nagari, Andhra Pradesh, India 🇮🇳",
+    education: "B.Tech CSE — JNTUA College of Engineering, Kalikiri",
     languages: ["English", "Telugu", "Tamil"],
     title: "Aspiring Software Engineer",
-    focus: ["AI & Machine Learning", "Backend Systems", "Cloud Architecture"],
+    portfolio: "https://ksvikash236.vercel.app/",
+    focus: ["AI & Machine Learning", "Backend Systems", "Cloud Architecture", "GPU Computing"],
     currentProjects: {
-        MediManage: "AI-powered pharmaceutical management",
-        CampusDev: "Student collaboration platform"
+        MediManage: "AI-powered pharmaceutical management with local GPU inference",
+        OmniAIBench: "Hardware & AI benchmark suite with custom kernel drivers",
+        CampusDev: "Student tech community & collaboration platform"
     },
     learning: [
         "System Design & Architecture Patterns",
@@ -36,6 +43,8 @@ const vikash = {
     goal2025: "Master System Design & Ship Production-Grade Agentic AI Apps"
 };
 ```
+
+> I'm a B.Tech CSE student at JNTUA College of Engineering, Kalikiri, with a deep passion for building production-ready systems. I specialize in backend development, AI/ML pipelines, and GPU-accelerated computing — from designing pharmacy management systems with local AI to building hardware benchmark suites with custom kernel drivers.
 
 ---
 
@@ -49,16 +58,17 @@ const vikash = {
 - System Design Patterns
 - Agentic AI Frameworks
 - Kubernetes at Scale
-- GPU Programming
+- GPU Programming (CUDA)
+- Data Engineering Pipelines
 
 </td>
 <td width="33%" align="center">
 
 ### 🚀 Building
 - MediManage AI System
+- OmniAIBench Suite
 - CampusDev Platform
 - Open Source Contributions
-- Technical Blog
 
 </td>
 <td width="34%" align="center">
@@ -87,16 +97,23 @@ const vikash = {
 **AI-Powered Pharmaceutical Management System**
 
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaFX-007396?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java_21-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaFX-3a75b0?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
 </p>
+
+CPU, NPU & GPU-based local AI for complete data privacy. Cloud integration with subscription-based model for enterprise.
 
 **Key Features:**
 - 📊 Real-time Inventory Tracking
-- 🤖 AI-driven Stock Predictions
+- 🤖 CPU/NPU/GPU Local AI Engine
+- 📷 Barcode Scanner Integration
 - 💰 Advanced Billing System
 - 📈 Business Analytics Dashboard
+- 🔒 Privacy-First Architecture
+- 📄 PDF Invoice Generation
 
 <a href="https://github.com/vikash236/MediManage">
   <img src="https://img.shields.io/badge/View_Project-7aa2f7?style=for-the-badge&logo=github&logoColor=white" />
@@ -105,20 +122,50 @@ const vikash = {
 </td>
 <td width="50%" align="center">
 
-### 🎓 CampusDev
+### ⚡ OmniAIBench
+**Professional Hardware & AI Benchmark Suite**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C++20-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Qt_6-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenVINO-0071C5?style=for-the-badge&logo=intel&logoColor=white" />
+  <img src="https://img.shields.io/badge/DirectX_12-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vulkan-AC162C?style=for-the-badge&logo=vulkan&logoColor=white" />
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+</p>
+
+Next-gen open-source benchmark tool for the AI era — test CPU, GPU, and NPU performance with real-world AI workloads.
+
+**Key Features:**
+- 📡 Real-Time Hardware Monitoring
+- 🔧 CPU / GPU / NPU Benchmarks
+- 🧠 AI Inference Testing
+- ⚙️ Custom Kernel Driver
+- � DirectX 12 + Vulkan Support
+- 🏆 Score Leaderboard
+
+<a href="https://github.com/vikash236/OmniAIBench">
+  <img src="https://img.shields.io/badge/View_Project-e6ff00?style=for-the-badge&logo=github&logoColor=black" />
+</a>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+
+### �🎓 CampusDev
 **Student Tech Community Platform**
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git_API-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
-**Key Features:**
-- 👥 Project Collaboration Hub
-- 📝 Git Integration
-- 🏆 Skill Showcase & Portfolios
-- 🔔 Event Management
+A collaboration hub for students to connect, build projects together, and showcase their skills in a portfolio-style environment.
+
+**Key Features:** 👥 Project Collaboration Hub · 📝 Git Integration · 🏆 Skill Showcase & Portfolios · 🔔 Event Management
 
 <p align="center">
   <img src="https://img.shields.io/badge/Coming_Soon-FFA500?style=for-the-badge&logo=rocket&logoColor=white" />
@@ -126,43 +173,6 @@ const vikash = {
 
 </td>
 </tr>
-</table>
-
-</div>
-
----
-
-## <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif" width="60px"/> Connect With Me
-
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center" width="120">
-      <a href="https://www.linkedin.com/in/ksvikash236/">
-        <img src="https://skillicons.dev/icons?i=linkedin" width="65" height="65" alt="LinkedIn" />
-        <br><b>LinkedIn</b>
-      </a>
-    </td>
-    <td align="center" width="120">
-      <a href="mailto:ksvikash236@gmail.com">
-        <img src="https://skillicons.dev/icons?i=gmail" width="65" height="65" alt="Gmail" />
-        <br><b>Email</b>
-      </a>
-    </td>
-    <td align="center" width="120">
-      <a href="https://github.com/vikash236">
-        <img src="https://skillicons.dev/icons?i=github" width="65" height="65" alt="GitHub" />
-        <br><b>GitHub</b>
-      </a>
-    </td>
-    <td align="center" width="120">
-      <a href="https://x.com/KsVikashRe84251">
-        <img src="https://skillicons.dev/icons?i=twitter" width="65" height="65" alt="Twitter" />
-        <br><b>Twitter</b>
-      </a>
-    </td>
-  </tr>
 </table>
 
 </div>
@@ -252,6 +262,39 @@ const vikash = {
 </td>
 <td align="center" width="100">
 <img src="https://github.com/simple-icons/simple-icons/raw/develop/icons/nvidia.svg" width="55"/><br><b>CUDA</b>
+</td>
+</tr>
+</table>
+
+</div>
+
+</details>
+
+<details open>
+<summary><b>⚡ GPU-Accelerated Frameworks</b></summary>
+<br>
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="100">
+<img src="https://github.com/simple-icons/simple-icons/raw/develop/icons/nvidia.svg" width="55"/><br><b>cuDF</b>
+</td>
+<td align="center" width="100">
+<img src="https://github.com/simple-icons/simple-icons/raw/develop/icons/nvidia.svg" width="55"/><br><b>cuML</b>
+</td>
+<td align="center" width="100">
+<img src="https://github.com/simple-icons/simple-icons/raw/develop/icons/nvidia.svg" width="55"/><br><b>cuGraph</b>
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=qt" width="55"/><br><b>Qt 6</b>
+</td>
+<td align="center" width="100">
+<img src="https://raw.githubusercontent.com/nicbarker/clay/main/images/clay-logo.png" width="55"/><br><b>OpenVINO</b>
+</td>
+<td align="center" width="100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Vulkan_logo.svg" width="55"/><br><b>Vulkan</b>
 </td>
 </tr>
 </table>
@@ -447,36 +490,75 @@ timeline
                            : Cloud & DevOps Learning
                            : Production Deployments
     section 2025
-        Expert Level : Agentic AI Development
-                     : Production-Grade Projects
-                     : Tech Leadership
+        Building at Scale : Agentic AI Development
+                          : OmniAIBench Benchmark Suite
+                          : GPU-Accelerated Computing
+                          : Full-Stack Cloud Architecture
     section 2026
-        Future Focus : AI & Machine Learning
-                     : Cloud & DevOps
-                     : System Design
-                     : Production-Grade Projects
-                     : Tech Leadership
+        Future Focus : AI & Machine Learning Mastery
+                     : Cloud & DevOps at Scale
+                     : Contributing to Large-Scale Open Source
 ```
 
 </div>
 
 ---
 
+## <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif" width="60px"/> Connect With Me
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="120">
+      <a href="https://ksvikash236.vercel.app/">
+        <img src="https://skillicons.dev/icons?i=vercel" width="65" height="65" alt="Portfolio" />
+        <br><b>Portfolio</b>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://www.linkedin.com/in/ksvikash236/">
+        <img src="https://skillicons.dev/icons?i=linkedin" width="65" height="65" alt="LinkedIn" />
+        <br><b>LinkedIn</b>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="mailto:ksvikash236@gmail.com">
+        <img src="https://skillicons.dev/icons?i=gmail" width="65" height="65" alt="Gmail" />
+        <br><b>Email</b>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://github.com/vikash236">
+        <img src="https://skillicons.dev/icons?i=github" width="65" height="65" alt="GitHub" />
+        <br><b>GitHub</b>
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://x.com/KsVikashRe84251">
+        <img src="https://skillicons.dev/icons?i=twitter" width="65" height="65" alt="Twitter" />
+        <br><b>Twitter</b>
+      </a>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
 
 <div align="center">
 
 ## 🌟 "Building the future, one commit at a time." 🌟
 
-<img src="https://komarev.com/ghpvc/?username=vikash236&color=7aa2f7&style=for-the-badge&label=TOTAL+PROFILE+VIEWS" />
-
-<br/><br/>
+<br/>
 
 **⭐ If you like what you see, show some love by starring repositories! ⭐**
 
 </div>
 
 <p align="center">
-  <b>Thanks for your visit to my profile! If you appreciate my work, consider buying me a coffee. 😊</b>
+  <b>Thanks for visiting my profile! If you appreciate my work, consider buying me a coffee. 😊</b>
 </p>
 
 <p align="center">
