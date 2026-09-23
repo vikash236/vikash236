@@ -43,6 +43,7 @@ const vikash = {
         "CompTIA Security+ Certification",
         "SIEM & Log Analysis (ELK / Splunk)",
         "Digital Forensics & Incident Response (DFIR) basics",
+        "GPU Parallel Computing (CUDA, RAPIDS) — fundamentals",
         "Docker & Containerization",
         "Databases (PostgreSQL, MongoDB)"
     ],
@@ -372,6 +373,9 @@ Hardware monitoring & CPU benchmark utility, primarily built in C++. Paused afte
 </td>
 <td align="center" width="130">
 <img src="https://api.iconify.design/lucide:search.svg?color=%237aa2f7" width="55"/><br><b>DFIR Basics</b>
+</td>
+<td align="center" width="130">
+<img src="https://api.iconify.design/lucide:cpu.svg?color=%237aa2f7" width="55"/><br><b>GPU Computing (CUDA/RAPIDS)</b>
 </td>
 <td align="center" width="130">
 <img src="https://skillicons.dev/icons?i=docker" width="55"/><br><b>Docker</b>
