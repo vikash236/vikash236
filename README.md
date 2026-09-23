@@ -4,7 +4,7 @@
 
 # Hi there, I'm <a href="https://ksvikash236.vercel.app/">Vikash Reddy</a> <img height="35" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7aa2f7&center=true&vCenter=true&width=800&lines=B.Tech+CSE+Student+%26+Aspiring+Engineer;Exploring+AI%2C+Machine+Learning+%26+Systems;Building+Practical+Software+Solutions;Always+Learning+%26+Tinkering" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7aa2f7&center=true&vCenter=true&width=800&lines=B.Tech+CSE+Student+%26+Compiler+Enthusiast;Building+Agam%3A+A+Systems+Language+in+Rust;Exploring+Compilers%2C+AI+%26+Low-Level+Systems;Always+Learning+from+First+Principles" alt="Typing SVG" />
 
 <br/>
 
@@ -25,10 +25,11 @@ const vikash = {
     location: "Nagari, Andhra Pradesh, India 🇮🇳",
     education: "B.Tech CSE — JNTUA College of Engineering, Kalikiri",
     languages: ["English", "Telugu", "Tamil"],
-    title: "B.Tech CSE Student & Aspiring Software Engineer",
+    title: "B.Tech CSE Student & Aspiring Systems/Software Engineer",
     portfolio: "https://ksvikash236.vercel.app/",
-    focus: ["Software Engineering", "AI & Machine Learning", "Backend & Systems"],
+    focus: ["Compiler Engineering", "Systems Programming", "AI & Machine Learning"],
     currentProjects: {
+        Agam: "Compiled systems language in Rust with custom SSA MIR, Cranelift JIT & LLVM AOT",
         MediManage: "Desktop pharmacy management app with local AI assistance",
         OmniAIBench: "Hardware monitoring & CPU benchmark utility (WIP)"
     },
@@ -39,11 +40,11 @@ const vikash = {
         "Computer Vision (OpenCV)"
     ],
     philosophy: "Build solid fundamentals and learn how systems work from first principles.",
-    currentGoal: "Strengthen core CS fundamentals, algorithms, and build practical software"
+    currentGoal: "Master compiler middle-ends, low-level systems, and build robust software"
 };
 ```
 
-> I'm a B.Tech Computer Science student at JNTUA College of Engineering, Kalikiri, passionate about software engineering, machine learning, and systems programming. I enjoy building practical, curiosity-driven applications — from developing desktop pharmacy tools with local AI assistance using Java and Python to building system monitoring utilities in C++. Currently focused on strengthening core computer science fundamentals, data structures, and backend development.
+> I'm a B.Tech Computer Science student at JNTUA College of Engineering, Kalikiri, passionate about compiler engineering, systems programming, and machine learning. My deepest technical work is **Agam**—an experimental compiled systems language implemented in Rust featuring custom SSA intermediate representation, Cranelift JIT, and LLVM AOT code generation. I enjoy building from first principles, from compilers and system monitoring tools to desktop applications with local AI assistance.
 
 ---
 
@@ -54,29 +55,29 @@ const vikash = {
 <td width="33%" align="center">
 
 ### 🎯 Learning
+- Compiler Optimizations & SSA
 - Data Structures & Algorithms
-- Backend Development & APIs
-- Relational Databases (MySQL)
-- Core Machine Learning
+- Systems Programming (Rust/C)
+- Backend Development (Node.js/MySQL)
 - Linux & Networking Basics
 
 </td>
 <td width="33%" align="center">
 
 ### 🚀 Building
+- Agam (Systems Language & Compiler)
 - MediManage (Pharmacy App)
-- OmniAIBench (Hardware Monitor & Benchmarks)
+- OmniAIBench (Hardware Monitor)
 - Open Source Contributions
-- Hands-on Lab Projects
 
 </td>
 <td width="34%" align="center">
 
 ### 📚 Reading & Exploring
-- Modern Web Frameworks
-- Computer Systems & OS
+- Modern Compiler Design & IRs
+- Computer Systems & OS Internals
+- Modern Web Frameworks (FastAPI)
 - Container Basics (Docker)
-- Computer Vision (OpenCV)
 
 </td>
 </tr>
@@ -89,6 +90,44 @@ const vikash = {
 <div align="center">
 
 <table>
+<tr>
+<td colspan="2" align="left">
+
+### 🔱 Agam — The Systems Programming Language
+**My Flagship Project: An Experimental Compiled Language Implemented in Rust**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=black" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+</p>
+
+An experimental systems programming language implemented from scratch across a **27-crate modular Rust workspace**. It bridges high-level developer ergonomics (Python-inspired `@lang.base`) with low-level systems control (`@lang.advance`) by lowering both syntax profiles into the exact same intermediate representation with 100% performance parity. Built from first principles to deeply master compiler architecture, intermediate representations, and the hardware/OS boundary.
+
+#### ⚙️ Compiler Pipeline (Implemented & Tested)
+- **Frontend (`crates/core`)**: UTF-8 span-tracking lexer (`agam_lexer`), Pratt parser with recursive descent for expressions and statements (`agam_parser`, `agam_ast`), and scope-aware bidirectional type checker (`agam_sema`).
+- **Middle-End SSA Optimizer (`crates/middle`)**: Lowers to a custom Mid-level Intermediate Representation (`agam_mir`) in **Static Single Assignment (SSA)** form with explicit control flow graphs, basic blocks, immutable `ValueId` bindings, and phi nodes.
+- **Transforming Optimization Passes**: Inlining of small leaf functions (`inline.rs`), constant folding & propagation (`constant_fold.rs`), dead-code elimination pruning unreachable blocks (`dce.rs`), loop unrolling (`loop_unroll.rs`), and E-Graph algebraic rewriting via equality saturation (`egg_engine.rs`).
+- **Dual Execution Backends (`crates/backends`)**: 
+  - **Cranelift JIT (`agam_jit`)**: In-memory compilation executing in `<15ms` for an instant interactive developer loop.
+  - **Native LLVM 18+ AOT (`agam_codegen`)**: Direct SSA-to-LLVM IR lowering generating standalone native binaries through Clang with `-O3` optimizations.
+  - **C Transpiler (`c_emitter.rs`)**: Portable C code generation fallback.
+- **Platform Abstraction Layer (`crates/runtime/agam_runtime`)**: OS virtual memory management (`VirtualAlloc` on Windows, `mmap` on Linux) and cross-platform async I/O demuxing (`WSAPoll` / `epoll`).
+
+#### 💡 Defensible Design Decisions & Engineering Insights
+- **Dual-Syntax Unified IR**: Demonstrates that syntactic ergonomics and systems performance are not mutually exclusive—both syntax profiles share the identical SSA pipeline and machine code output.
+- **Classical Linguistic Foundations**: Standard library operations structured on Pāṇinian root derivation (*Dhātu*) and Tamil case-marking (*Vibhakti*), treating API verbs as canonical immutable roots.
+- **Nyāya Diagnostic Proof Engine**: Compiler diagnostics deliver 4-part structured logic proofs (Fact, Reason, Suggested Fix, Specification Law).
+- **AI-Assisted with First-Principles Ownership**: Built using AI pair programming for rapid iteration, but architected, audited, and defended through personal mastery of SSA mathematics, graph lowering, dominance frontiers, and ABI conventions.
+- **Benchmark Proven**: 55+ benchmark suites demonstrating native execution speeds 30x–90x faster than CPython, performing neck-and-neck with C++ Clang `-O3` and Rustc `-O`.
+
+<p align="center">
+  <a href="https://github.com/agam-lang/agam">
+    <img src="https://img.shields.io/badge/View_Project-DEA584?style=for-the-badge&logo=github&logoColor=black" />
+  </a>
+</p>
+
+</td>
+</tr>
 <tr>
 <td width="50%" align="center">
 
@@ -363,15 +402,15 @@ timeline
                          : Data Structures & Algorithms
                          : Basic Machine Learning
     section 2024
-        Applied Projects : Building MediManage (Desktop Pharmacy App)
+        Applied Projects : Built MediManage (Desktop Pharmacy App)
                          : SQL & Relational Databases
-                         : Git & Collaborative Workflows
+                         : Systems Programming in Rust
     section 2025
-        Expanding Scope : OmniAIBench Utility (Hardware & Benchmarking)
-                        : Exploring Web Frameworks & Docker
-                        : Deepening ML & Systems Knowledge
+        Deep Systems Learning : Building Agam (Rust Compiler, SSA MIR, JIT & LLVM)
+                              : OmniAIBench Utility (Hardware & Benchmarking)
+                              : Exploring Web Frameworks & Docker
     section 2026
-        Future Focus : Core Software Engineering & Problem Solving
+        Future Focus : Compiler Engineering & Systems Software
                      : Open Source Contributions
                      : Continuous Learning & Building
 ```
