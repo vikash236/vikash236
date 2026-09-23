@@ -4,7 +4,7 @@
 
 # Hi there, I'm <a href="https://ksvikash236.vercel.app/">Vikash Reddy</a> <img height="35" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7aa2f7&center=true&vCenter=true&width=800&lines=B.Tech+CSE+Student+%26+Compiler+Enthusiast;Building+Agam%3A+A+Systems+Language+in+Rust;Exploring+Compilers%2C+AI+%26+Low-Level+Systems;Always+Learning+from+First+Principles" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7aa2f7&center=true&vCenter=true&width=800&lines=B.Tech+CSE+Student+%26+Aspiring+Security+Engineer;Building+Agam+%28Rust+Compiler%29+%26+Security+Projects;Exploring+Networking%2C+SIEM+%26+Systems;Always+Learning+from+First+Principles" alt="Typing SVG" />
 
 <br/>
 
@@ -25,26 +25,33 @@ const vikash = {
     location: "Nagari, Andhra Pradesh, India 🇮🇳",
     education: "B.Tech CSE — JNTUA College of Engineering, Kalikiri",
     languages: ["English", "Telugu", "Tamil"],
-    title: "B.Tech CSE Student & Aspiring Systems/Software Engineer",
+    title: "B.Tech CSE Student & Aspiring Security/Systems Engineer",
     portfolio: "https://ksvikash236.vercel.app/",
-    focus: ["Compiler Engineering", "Systems Programming", "AI & Machine Learning"],
+    focus: [
+        "Networking & Cybersecurity",
+        "Compiler Engineering",
+        "Systems Programming",
+        "Software Engineering"
+    ],
     currentProjects: {
-        Agam: "Compiled systems language in Rust with custom SSA MIR, Cranelift JIT & LLVM AOT",
-        MediManage: "Desktop pharmacy management app with local AI assistance",
-        OmniAIBench: "Hardware monitoring & CPU benchmark utility (WIP)"
+        agam: "Compiled systems language in Rust with custom SSA MIR, Cranelift JIT & LLVM AOT (compiler)",
+        MediManage: "Desktop pharmacy management app with local AI assistance (completed)",
+        inProgress: "Pivoting into networking & cybersecurity, building portfolio projects (pcap-sentinel, homelab-soc, Kavach-NPU) alongside the learning roadmap"
     },
     exploring: [
-        "Modern Web Frameworks (FastAPI, Django)",
+        "Networking Fundamentals (CCNA-track concepts)",
+        "CompTIA Security+ Certification",
+        "SIEM & Log Analysis (ELK / Splunk)",
+        "Digital Forensics & Incident Response (DFIR) basics",
         "Docker & Containerization",
-        "Databases (PostgreSQL, MongoDB)",
-        "Computer Vision (OpenCV)"
+        "Databases (PostgreSQL, MongoDB)"
     ],
     philosophy: "Build solid fundamentals and learn how systems work from first principles.",
-    currentGoal: "Master compiler middle-ends, low-level systems, and build robust software"
+    currentGoal: "Land an entry-level networking or cybersecurity role while building defensible security tools"
 };
 ```
 
-> I'm a B.Tech Computer Science student at JNTUA College of Engineering, Kalikiri, passionate about compiler engineering, systems programming, and machine learning. My deepest technical work is **Agam**—an experimental compiled systems language implemented in Rust featuring custom SSA intermediate representation, Cranelift JIT, and LLVM AOT code generation. I enjoy building from first principles, from compilers and system monitoring tools to desktop applications with local AI assistance.
+> I'm a B.Tech Computer Science student at JNTUA College of Engineering, Kalikiri. While my flagship software project is **Agam**—an experimental compiled systems language implemented in Rust—I am actively pivoting my focus into **networking and cybersecurity**. Alongside completing my final-year project (MediManage), I am currently building hands-on portfolio projects in packet analysis, homelab detection, and local NPU utilization while working toward security certifications.
 
 ---
 
@@ -55,29 +62,29 @@ const vikash = {
 <td width="33%" align="center">
 
 ### 🎯 Learning
-- Compiler Optimizations & SSA
-- Data Structures & Algorithms
-- Systems Programming (Rust/C)
-- Backend Development (Node.js/MySQL)
-- Linux & Networking Basics
+- Networking Fundamentals
+- CompTIA Security+
+- Linux Deep Dive (Log Analysis, Scripting)
+- SIEM & Detection Basics
 
 </td>
 <td width="33%" align="center">
 
 ### 🚀 Building
-- Agam (Systems Language & Compiler)
-- MediManage (Pharmacy App)
-- OmniAIBench (Hardware Monitor)
-- Open Source Contributions
+- agam
+- pcap-sentinel
+- homelab-soc
+- Kavach-NPU
+- security-writeups
 
 </td>
 <td width="34%" align="center">
 
-### 📚 Reading & Exploring
-- Modern Compiler Design & IRs
-- Computer Systems & OS Internals
-- Modern Web Frameworks (FastAPI)
-- Container Basics (Docker)
+### 📚 Reading / Practicing
+- TryHackMe & HackTheBox Labs
+- Security Journal Entries
+- Network Protocol Analysis
+- Incident Detection Playbooks
 
 </td>
 </tr>
@@ -132,7 +139,7 @@ An experimental systems programming language implemented from scratch across a *
 <td width="50%" align="center">
 
 ### 🏥 MediManage
-**Desktop Pharmacy Management Application**
+**Desktop Pharmacy Management Application (Completed)**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
@@ -158,24 +165,55 @@ A desktop pharmacy management application built with JavaFX and SQLite, featurin
 <td width="50%" align="center">
 
 ### ⚡ OmniAIBench
-**Hardware Monitoring & Benchmark Utility (WIP)**
+**Hardware Monitoring & Benchmark Utility — ⏸️ Paused (WIP)**
 
 <p align="center">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
 </p>
 
-An open-source desktop utility built with C/C++ and Qt for Windows to monitor system hardware in real-time, benchmark CPU performance, and track scores locally.
+Hardware monitoring & CPU benchmark utility, primarily built in C++. Paused after realizing I wanted to build my own compiler rather than keep working around existing toolchains — that need became agam.
 
-**Key Features:**
-- 📡 Real-Time Hardware Detection (CPU, RAM, GPU via Windows WMI)
-- 🔧 Multi-Threaded CPU Benchmarking (Single-core & multi-core tests)
+**Key Features (Implemented):**
+- 📡 Real-Time Hardware Detection (CPU, RAM, GPU specs via Windows WMI)
+- 🔧 Multi-Threaded CPU Benchmarking (Single-core & multi-core performance tests)
 - 📊 Hardware Sensor Monitoring (CPU load, temperatures & GPU metrics via PDH/NVML)
 - 🏆 Local Score Tracking & Leaderboard (SQLite persistence)
-- 🎨 Native Desktop UI (VS Code Dark-inspired theme built with Qt)
+- 🎨 Native Desktop UI (Built with Qt)
 
 <a href="https://github.com/vikash236/OmniAIBench">
   <img src="https://img.shields.io/badge/View_Project-e6ff00?style=for-the-badge&logo=github&logoColor=black" />
 </a>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" align="left">
+
+### 🛡️ In-Progress Security Projects
+> *🚧 Just started — building alongside my cybersecurity roadmap*
+
+<table>
+<tr>
+<td width="50%">
+
+- **🔒 Kavach-NPU**  
+  Local NPU utilization project on my laptop.
+- **📡 pcap-sentinel**  
+  Packet capture analyzer for home network security.
+- **🏢 homelab-soc**  
+  Mini SOC/SIEM home lab for detection practice.
+
+</td>
+<td width="50%">
+
+- **📝 security-writeups**  
+  HTB/THM write-up portfolio.
+- **📓 security-journal**  
+  Daily learning log.
+
+</td>
+</tr>
+</table>
 
 </td>
 </tr>
@@ -317,32 +355,32 @@ An open-source desktop utility built with C/C++ and Qt for Windows to monitor sy
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Magnifying%20Glass%20Tilted%20Right.png" width="35" /> Currently Exploring
 
-> Technologies, frameworks, and tools I am actively exploring and learning through hands-on practice.
+> Core areas, technologies, and certifications I am actively exploring along my networking and cybersecurity roadmap.
 
 <div align="center">
 
 <table>
 <tr>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=opencv" width="55"/><br><b>OpenCV</b>
+<td align="center" width="130">
+<img src="https://api.iconify.design/lucide:network.svg?color=%237aa2f7" width="55"/><br><b>Networking (CCNA)</b>
 </td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=django" width="55"/><br><b>Django</b>
+<td align="center" width="130">
+<img src="https://api.iconify.design/lucide:shield-check.svg?color=%237aa2f7" width="55"/><br><b>CompTIA Security+</b>
 </td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=fastapi" width="55"/><br><b>FastAPI</b>
+<td align="center" width="130">
+<img src="https://api.iconify.design/lucide:terminal.svg?color=%237aa2f7" width="55"/><br><b>SIEM & Logs (ELK/Splunk)</b>
 </td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=graphql" width="55"/><br><b>GraphQL</b>
+<td align="center" width="130">
+<img src="https://api.iconify.design/lucide:search.svg?color=%237aa2f7" width="55"/><br><b>DFIR Basics</b>
 </td>
-<td align="center" width="100">
+<td align="center" width="130">
+<img src="https://skillicons.dev/icons?i=docker" width="55"/><br><b>Docker</b>
+</td>
+<td align="center" width="130">
 <img src="https://skillicons.dev/icons?i=postgres" width="55"/><br><b>PostgreSQL</b>
 </td>
-<td align="center" width="100">
+<td align="center" width="130">
 <img src="https://skillicons.dev/icons?i=mongodb" width="55"/><br><b>MongoDB</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=docker" width="55"/><br><b>Docker</b>
 </td>
 </tr>
 </table>
@@ -393,26 +431,44 @@ An open-source desktop utility built with C/C++ and Qt for Windows to monitor sy
 
 ```mermaid
 timeline
-    title My Coding Journey
-    section 2022
-        Getting Started : Programming Fundamentals
-                        : C & Python Basics
-    section 2023
-        Core Foundations : Java & Object-Oriented Programming
-                         : Data Structures & Algorithms
-                         : Basic Machine Learning
-    section 2024
-        Applied Projects : Built MediManage (Desktop Pharmacy App)
-                         : SQL & Relational Databases
-                         : Systems Programming in Rust
+    title My Coding & Engineering Journey
+    section 2022 H1
+        Programming & Math : Programming fundamentals in C
+                           : Math (linear algebra and calculus)
+    section 2022 H2
+        Python & Data : Python fundamentals
+                      : Data science basics (NumPy, Pandas, Matplotlib)
+                      : Data analysis and engineering
+    section 2023 H1
+        OOP & Structures : Java and OOP
+                         : Data structures
+                         : Math (probability and statistics)
+    section 2023 H2
+        ML & Systems : Machine learning fundamentals
+                     : R for advanced data analysis
+                     : Basic MySQL
+                     : Small embedded systems
+                     : Early web basics (HTML/CSS/JS)
+    section 2024 H1
+        Systems & Networking : Computer systems and organization
+                             : Math (discrete math, graph theory, statistical methods)
+                             : OS fundamentals (Windows, Linux, WSL)
+                             : IoT and computer networks fundamentals
+    section 2024 H2
+        Compilers & Advanced ML : Automata theory and compiler design
+                                : Computer vision
+                                : Intermediate ML (TensorFlow, PyTorch, Scikit-learn)
+                                : Basics of Android development
     section 2025
-        Deep Systems Learning : Building Agam (Rust Compiler, SSA MIR, JIT & LLVM)
-                              : OmniAIBench Utility (Hardware & Benchmarking)
-                              : Exploring Web Frameworks & Docker
+        GPU, Web & Rust : Explored GPU parallel computing (learned CUDA fundamentals, tried RAPIDS framework, studied sync vs. async multi-threaded programming)
+                        : Web technologies (React, Node.js, Git)
+                        : Software testing fundamentals and basics of cloud computing
+                        : Started learning Rust at year end
     section 2026
-        Future Focus : Compiler Engineering & Systems Software
-                     : Open Source Contributions
-                     : Continuous Learning & Building
+        Compilers to Cybersecurity : Final year project (MediManage)
+                                   : Started OmniAIBench, paused it to build agam (own compiler)
+                                   : Pivoted focus toward networking and cybersecurity
+                                   : Currently building foundational skills and portfolio projects
 ```
 
 </div>
