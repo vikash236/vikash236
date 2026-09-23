@@ -35,7 +35,7 @@ const vikash = {
     ],
     currentProjects: {
         agam: "Compiled systems language in Rust with custom SSA MIR, Cranelift JIT & LLVM AOT (compiler)",
-        MediManage: "Desktop pharmacy management app with local AI assistance (completed)",
+        MediManage: "Desktop pharmacy management app with local AI assistance",
         inProgress: "Pivoting into networking & cybersecurity, building portfolio projects (pcap-sentinel, homelab-soc, Kavach-NPU) alongside the learning roadmap"
     },
     exploring: [
@@ -140,7 +140,7 @@ An experimental systems programming language implemented from scratch across a *
 <td width="50%" align="center">
 
 ### 🏥 MediManage
-**Desktop Pharmacy Management Application (Completed)**
+**Desktop Pharmacy Management Application**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
