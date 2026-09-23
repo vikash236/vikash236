@@ -4,7 +4,7 @@
 
 # Hi there, I'm <a href="https://ksvikash236.vercel.app/">Vikash Reddy</a> <img height="35" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7aa2f7&center=true&vCenter=true&width=800&lines=AI+%26+Backend+Systems+Developer;Building+Intelligent+Apps+for+Real+World;Specialized+in+AI%2C+Big+Data+%26+Cloud;GPU-Accelerated+Computing+Enthusiast;Turning+Complex+Problems+Into+Solutions" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7aa2f7&center=true&vCenter=true&width=800&lines=B.Tech+CSE+Student+%26+Aspiring+Engineer;Exploring+AI%2C+Machine+Learning+%26+Systems;Building+Practical+Software+Solutions;Always+Learning+%26+Tinkering" alt="Typing SVG" />
 
 <br/>
 
@@ -25,59 +25,58 @@ const vikash = {
     location: "Nagari, Andhra Pradesh, India 🇮🇳",
     education: "B.Tech CSE — JNTUA College of Engineering, Kalikiri",
     languages: ["English", "Telugu", "Tamil"],
-    title: "Aspiring Software Engineer",
+    title: "B.Tech CSE Student & Aspiring Software Engineer",
     portfolio: "https://ksvikash236.vercel.app/",
-    focus: ["AI & Machine Learning", "Backend Systems", "Cloud Architecture", "GPU Computing"],
+    focus: ["Software Engineering", "AI & Machine Learning", "Backend & Systems"],
     currentProjects: {
-        MediManage: "AI-powered pharmaceutical management with local GPU inference",
-        OmniAIBench: "Hardware & AI benchmark suite with custom kernel drivers",
-        CampusDev: "Student tech community & collaboration platform"
+        MediManage: "Desktop pharmacy management app with local AI assistance",
+        OmniAIBench: "Hardware monitoring & CPU benchmark utility (WIP)"
     },
-    learning: [
-        "System Design & Architecture Patterns",
-        "Agentic AI (LangChain, LlamaIndex)",
-        "Kubernetes & Production DevOps",
-        "GPU Acceleration (RAPIDS, CUDA)"
+    exploring: [
+        "Modern Web Frameworks (FastAPI, Django)",
+        "Docker & Containerization",
+        "Databases (PostgreSQL, MongoDB)",
+        "Computer Vision (OpenCV)"
     ],
-    philosophy: "Great software is invisible; it just works.",
-    goal2025: "Master System Design & Ship Production-Grade Agentic AI Apps"
+    philosophy: "Build solid fundamentals and learn how systems work from first principles.",
+    currentGoal: "Strengthen core CS fundamentals, algorithms, and build practical software"
 };
 ```
 
-> I'm a B.Tech CSE student at JNTUA College of Engineering, Kalikiri, with a deep passion for building production-ready systems. I specialize in backend development, AI/ML pipelines, and GPU-accelerated computing — from designing pharmacy management systems with local AI to building hardware benchmark suites with custom kernel drivers.
+> I'm a B.Tech Computer Science student at JNTUA College of Engineering, Kalikiri, passionate about software engineering, machine learning, and systems programming. I enjoy building practical, curiosity-driven applications — from developing desktop pharmacy tools with local AI assistance using Java and Python to building system monitoring utilities in C++. Currently focused on strengthening core computer science fundamentals, data structures, and backend development.
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bullseye.png" width="35" /> 2025 Focus Areas
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bullseye.png" width="35" /> Current Focus Areas
 
 <table align="center">
 <tr>
 <td width="33%" align="center">
 
 ### 🎯 Learning
-- System Design Patterns
-- Agentic AI Frameworks
-- Kubernetes at Scale
-- GPU Programming (CUDA)
-- Data Engineering Pipelines
+- Data Structures & Algorithms
+- Backend Development & APIs
+- Relational Databases (MySQL)
+- Core Machine Learning
+- Linux & Networking Basics
 
 </td>
 <td width="33%" align="center">
 
 ### 🚀 Building
-- MediManage AI System
-- OmniAIBench Suite
-- CampusDev Platform
+- MediManage (Pharmacy App)
+- OmniAIBench (Hardware Monitor & Benchmarks)
 - Open Source Contributions
+- Hands-on Lab Projects
 
 </td>
 <td width="34%" align="center">
 
-### 📚 Reading
-- Designing Data-Intensive Apps
-- System Design Interview
-- Deep Learning Papers
-- Cloud Architecture
+### 📚 Reading & Exploring
+- Modern Web Frameworks
+- Computer Systems & OS
+- Container Basics (Docker)
+- Computer Vision (OpenCV)
 
 </td>
 </tr>
@@ -94,26 +93,23 @@ const vikash = {
 <td width="50%" align="center">
 
 ### 🏥 MediManage
-**AI-Powered Pharmaceutical Management System**
+**Desktop Pharmacy Management Application**
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java_21-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaFX-3a75b0?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
 </p>
 
-CPU, NPU & GPU-based local AI for complete data privacy. Cloud integration with subscription-based model for enterprise.
+A desktop pharmacy management application built with JavaFX and SQLite, featuring offline-first data storage and an integrated local Python microservice for AI assistance.
 
 **Key Features:**
-- 📊 Real-time Inventory Tracking
-- 🤖 CPU/NPU/GPU Local AI Engine
-- 📷 Barcode Scanner Integration
-- 💰 Advanced Billing System
-- 📈 Business Analytics Dashboard
-- 🔒 Privacy-First Architecture
-- 📄 PDF Invoice Generation
+- 📊 Real-time Inventory & Low-Stock Alerts
+- 🤖 Local AI Microservice (Python & ONNX for offline inference)
+- 📷 Barcode Scanner Integration (ZXing)
+- 💰 Fast POS Billing & Thermal Receipt Printing
+- 📈 Expense Tracking & Profit Calculation
+- 🔒 Offline-First Local Storage (SQLite)
+- 📄 PDF Invoice Generation (JasperReports / OpenPDF)
 
 <a href="https://github.com/vikash236/MediManage">
   <img src="https://img.shields.io/badge/View_Project-7aa2f7?style=for-the-badge&logo=github&logoColor=white" />
@@ -123,53 +119,24 @@ CPU, NPU & GPU-based local AI for complete data privacy. Cloud integration with 
 <td width="50%" align="center">
 
 ### ⚡ OmniAIBench
-**Professional Hardware & AI Benchmark Suite**
+**Hardware Monitoring & Benchmark Utility (WIP)**
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C++20-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Qt_6-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenVINO-0071C5?style=for-the-badge&logo=intel&logoColor=white" />
-  <img src="https://img.shields.io/badge/DirectX_12-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vulkan-AC162C?style=for-the-badge&logo=vulkan&logoColor=white" />
-  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
 </p>
 
-Next-gen open-source benchmark tool for the AI era — test CPU, GPU, and NPU performance with real-world AI workloads.
+An open-source desktop utility built with C/C++ and Qt for Windows to monitor system hardware in real-time, benchmark CPU performance, and track scores locally.
 
 **Key Features:**
-- 📡 Real-Time Hardware Monitoring
-- 🔧 CPU / GPU / NPU Benchmarks
-- 🧠 AI Inference Testing
-- ⚙️ Custom Kernel Driver
-- � DirectX 12 + Vulkan Support
-- 🏆 Score Leaderboard
+- 📡 Real-Time Hardware Detection (CPU, RAM, GPU via Windows WMI)
+- 🔧 Multi-Threaded CPU Benchmarking (Single-core & multi-core tests)
+- 📊 Hardware Sensor Monitoring (CPU load, temperatures & GPU metrics via PDH/NVML)
+- 🏆 Local Score Tracking & Leaderboard (SQLite persistence)
+- 🎨 Native Desktop UI (VS Code Dark-inspired theme built with Qt)
 
 <a href="https://github.com/vikash236/OmniAIBench">
   <img src="https://img.shields.io/badge/View_Project-e6ff00?style=for-the-badge&logo=github&logoColor=black" />
 </a>
-
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
-
-### �🎓 CampusDev
-**Student Tech Community Platform**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git_API-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</p>
-
-A collaboration hub for students to connect, build projects together, and showcase their skills in a portfolio-style environment.
-
-**Key Features:** 👥 Project Collaboration Hub · 📝 Git Integration · 🏆 Skill Showcase & Portfolios · 🔔 Event Management
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Coming_Soon-FFA500?style=for-the-badge&logo=rocket&logoColor=white" />
-</p>
 
 </td>
 </tr>
@@ -179,7 +146,7 @@ A collaboration hub for students to connect, build projects together, and showca
 
 ---
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="32px"/> Tech Stack & Tools
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="32px"/> Tech Stack & Skills
 
 <details open>
 <summary><b>💻 Programming Languages</b></summary>
@@ -190,19 +157,13 @@ A collaboration hub for students to connect, build projects together, and showca
 <table>
 <tr>
 <td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=rust" width="55"/><br><b>Rust</b>
+</td>
+<td align="center" width="100">
 <img src="https://skillicons.dev/icons?i=python" width="55"/><br><b>Python</b>
 </td>
 <td align="center" width="100">
 <img src="https://skillicons.dev/icons?i=java" width="55"/><br><b>Java</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=cpp" width="55"/><br><b>C++</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=js" width="55"/><br><b>JavaScript</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=go" width="55"/><br><b>Go</b>
 </td>
 <td align="center" width="100">
 <img src="https://skillicons.dev/icons?i=c" width="55"/><br><b>C</b>
@@ -218,7 +179,7 @@ A collaboration hub for students to connect, build projects together, and showca
 </details>
 
 <details open>
-<summary><b>🧠 AI/ML & Data Science</b></summary>
+<summary><b>🧠 Machine Learning & Data Science</b></summary>
 <br>
 
 <div align="center">
@@ -235,17 +196,6 @@ A collaboration hub for students to connect, build projects together, and showca
 <img src="https://skillicons.dev/icons?i=sklearn" width="55"/><br><b>Scikit-learn</b>
 </td>
 <td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=opencv" width="55"/><br><b>OpenCV</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=anaconda" width="55"/><br><b>Anaconda</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=matlab" width="55"/><br><b>MATLAB</b>
-</td>
-</tr>
-<tr>
-<td align="center" width="100">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="55"/><br><b>Pandas</b>
 </td>
 <td align="center" width="100">
@@ -254,15 +204,6 @@ A collaboration hub for students to connect, build projects together, and showca
 <td align="center" width="100">
 <img src="https://raw.githubusercontent.com/matplotlib/matplotlib/main/doc/_static/logo2.svg" width="55"/><br><b>Matplotlib</b>
 </td>
-<td align="center" width="100">
-<img src="https://raw.githubusercontent.com/jupyter/jupyter.github.io/master/assets/share.png" width="55"/><br><b>Jupyter</b>
-</td>
-<td align="center" width="100">
-<img src="https://github.com/simple-icons/simple-icons/raw/develop/icons/nvidia.svg" width="55" style="filter: hue-rotate(240deg);"/><br><b>RAPIDS</b>
-</td>
-<td align="center" width="100">
-<img src="https://github.com/simple-icons/simple-icons/raw/develop/icons/nvidia.svg" width="55"/><br><b>CUDA</b>
-</td>
 </tr>
 </table>
 
@@ -271,73 +212,7 @@ A collaboration hub for students to connect, build projects together, and showca
 </details>
 
 <details open>
-<summary><b>⚡ GPU-Accelerated Frameworks</b></summary>
-<br>
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="100">
-<img src="https://github.com/simple-icons/simple-icons/raw/develop/icons/nvidia.svg" width="55"/><br><b>cuDF</b>
-</td>
-<td align="center" width="100">
-<img src="https://github.com/simple-icons/simple-icons/raw/develop/icons/nvidia.svg" width="55"/><br><b>cuML</b>
-</td>
-<td align="center" width="100">
-<img src="https://github.com/simple-icons/simple-icons/raw/develop/icons/nvidia.svg" width="55"/><br><b>cuGraph</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=qt" width="55"/><br><b>Qt 6</b>
-</td>
-<td align="center" width="100">
-<img src="https://raw.githubusercontent.com/nicbarker/clay/main/images/clay-logo.png" width="55"/><br><b>OpenVINO</b>
-</td>
-<td align="center" width="100">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Vulkan_logo.svg" width="55"/><br><b>Vulkan</b>
-</td>
-</tr>
-</table>
-
-</div>
-
-</details>
-
-<details open>
-<summary><b>☁️ Cloud & Big Data</b></summary>
-<br>
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=aws" width="55"/><br><b>AWS</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=azure" width="55"/><br><b>Azure</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=gcp" width="55"/><br><b>GCP</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=kafka" width="55"/><br><b>Kafka</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=hadoop" width="55"/><br><b>Hadoop</b>
-</td>
-<td align="center" width="100">
-<img src="https://spark.apache.org/images/spark-logo-trademark.png" width="55"/><br><b>Spark</b>
-</td>
-</tr>
-</table>
-
-</div>
-
-</details>
-
-<details>
-<summary><b>🌐 Web & Backend Frameworks</b></summary>
+<summary><b>🌐 Web & Backend</b></summary>
 <br>
 
 <div align="center">
@@ -346,18 +221,6 @@ A collaboration hub for students to connect, build projects together, and showca
 <tr>
 <td align="center" width="100">
 <img src="https://skillicons.dev/icons?i=react" width="55"/><br><b>React</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=django" width="55"/><br><b>Django</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=fastapi" width="55"/><br><b>FastAPI</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=flask" width="55"/><br><b>Flask</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=graphql" width="55"/><br><b>GraphQL</b>
 </td>
 <td align="center" width="100">
 <img src="https://skillicons.dev/icons?i=nodejs" width="55"/><br><b>Node.js</b>
@@ -369,8 +232,8 @@ A collaboration hub for students to connect, build projects together, and showca
 
 </details>
 
-<details>
-<summary><b>🗄️ Databases</b></summary>
+<details open>
+<summary><b>🗄️ Database</b></summary>
 <br>
 
 <div align="center">
@@ -380,18 +243,6 @@ A collaboration hub for students to connect, build projects together, and showca
 <td align="center" width="100">
 <img src="https://skillicons.dev/icons?i=mysql" width="55"/><br><b>MySQL</b>
 </td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=postgres" width="55"/><br><b>PostgreSQL</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=mongodb" width="55"/><br><b>MongoDB</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=redis" width="55"/><br><b>Redis</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=sqlite" width="55"/><br><b>SQLite</b>
-</td>
 </tr>
 </table>
 
@@ -399,8 +250,8 @@ A collaboration hub for students to connect, build projects together, and showca
 
 </details>
 
-<details>
-<summary><b>🛠️ DevOps & Tools</b></summary>
+<details open>
+<summary><b>🛠️ Tools & Networking</b></summary>
 <br>
 
 <div align="center">
@@ -408,22 +259,13 @@ A collaboration hub for students to connect, build projects together, and showca
 <table>
 <tr>
 <td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=docker" width="55"/><br><b>Docker</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=kubernetes" width="55"/><br><b>Kubernetes</b>
-</td>
-<td align="center" width="100">
 <img src="https://skillicons.dev/icons?i=git" width="55"/><br><b>Git</b>
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=jenkins" width="55"/><br><b>Jenkins</b>
 </td>
 <td align="center" width="100">
 <img src="https://skillicons.dev/icons?i=linux" width="55"/><br><b>Linux</b>
 </td>
 <td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=ansible" width="55"/><br><b>Ansible</b>
+<img src="https://api.iconify.design/lucide:network.svg?color=%237aa2f7" width="55"/><br><b>Networking</b>
 </td>
 </tr>
 </table>
@@ -431,6 +273,42 @@ A collaboration hub for students to connect, build projects together, and showca
 </div>
 
 </details>
+
+---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Magnifying%20Glass%20Tilted%20Right.png" width="35" /> Currently Exploring
+
+> Technologies, frameworks, and tools I am actively exploring and learning through hands-on practice.
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=opencv" width="55"/><br><b>OpenCV</b>
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=django" width="55"/><br><b>Django</b>
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=fastapi" width="55"/><br><b>FastAPI</b>
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=graphql" width="55"/><br><b>GraphQL</b>
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=postgres" width="55"/><br><b>PostgreSQL</b>
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=mongodb" width="55"/><br><b>MongoDB</b>
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=docker" width="55"/><br><b>Docker</b>
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
@@ -478,26 +356,24 @@ A collaboration hub for students to connect, build projects together, and showca
 timeline
     title My Coding Journey
     section 2022
-        Started Programming : Python Fundamentals
-                            : Data Structures & Algorithms
+        Getting Started : Programming Fundamentals
+                        : C & Python Basics
     section 2023
-        Advanced Development : Java & OOP Mastery
-                             : Machine Learning Basics
-                             : First Open Source Contributions
+        Core Foundations : Java & Object-Oriented Programming
+                         : Data Structures & Algorithms
+                         : Basic Machine Learning
     section 2024
-        Professional Growth : Backend Systems Development
-                           : Built MediManage Platform
-                           : Cloud & DevOps Learning
-                           : Production Deployments
+        Applied Projects : Building MediManage (Desktop Pharmacy App)
+                         : SQL & Relational Databases
+                         : Git & Collaborative Workflows
     section 2025
-        Building at Scale : Agentic AI Development
-                          : OmniAIBench Benchmark Suite
-                          : GPU-Accelerated Computing
-                          : Full-Stack Cloud Architecture
+        Expanding Scope : OmniAIBench Utility (Hardware & Benchmarking)
+                        : Exploring Web Frameworks & Docker
+                        : Deepening ML & Systems Knowledge
     section 2026
-        Future Focus : AI & Machine Learning Mastery
-                     : Cloud & DevOps at Scale
-                     : Contributing to Large-Scale Open Source
+        Future Focus : Core Software Engineering & Problem Solving
+                     : Open Source Contributions
+                     : Continuous Learning & Building
 ```
 
 </div>
